@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+   
+    <welcome-file-list>
+        <welcome-file>paginaPrincipal.jsp</welcome-file>
+        
+    </welcome-file-list>
+    
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>cl.servlet.LoginServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>MostrarCliente</servlet-name>
+        <servlet-class>cl.servlet.MostrarCliente</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>GestionarClientes</servlet-name>
+        <servlet-class>cl.servlet.GestionarClientes</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>GestionarProveedores</servlet-name>
+        <servlet-class>cl.servlet.GestionarProveedores</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>GestionVentas</servlet-name>
+        <servlet-class>cl.servlet.GestionVentas</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>MostrarCliente</servlet-name>
+        <url-pattern>/MostrarCliente</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>GestionarClientes</servlet-name>
+        <url-pattern>/GestionarClientes</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>GestionarProveedores</servlet-name>
+        <url-pattern>/GestionarProveedores</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>GestionVentas</servlet-name>
+        <url-pattern>/GestionVentas</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

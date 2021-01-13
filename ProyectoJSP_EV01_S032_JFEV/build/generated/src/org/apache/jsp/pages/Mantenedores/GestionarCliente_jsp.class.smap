@@ -1,0 +1,22 @@
+SMAP
+GestionarCliente_jsp.java
+JSP
+*S JSP
+*F
++ 0 GestionarCliente.jsp
+pages/Mantenedores/GestionarCliente.jsp
++ 1 cabecera.jsp
+pages/configuracion/cabecera.jsp
++ 2 piedepagina.jsp
+pages/Mantenedores/../configuracion/piedepagina.jsp
+*L
+5,43:52
+5#1,20:95
+25:115,3
+26,10:118
+47#0,45:127
+93,17:174
+109,7:191
+5#2,48:198
+115#0,4:245
+*E
